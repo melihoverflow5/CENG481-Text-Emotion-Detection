@@ -1,6 +1,6 @@
 # 🎭 Emotion Detection in Text using DeBERTa-v3
 
-This project uses a fine-tuned DeBERTa-v3-large model to detect emotions in text. It supports 6 emotion categories: **sadness, joy, love, anger, fear,** and **surprise**. The model is served via a Flask API and accessed through a user-friendly Streamlit interface.
+This project uses a fine-tuned [DeBERTa-v3-large model](https://huggingface.co/microsoft/deberta-v3-large) to detect emotions in text. Model fine tuned with **400k+** row data. It supports 6 emotion categories: **sadness, joy, love, anger, fear,** and **surprise**. The model is served via a Flask API and accessed through a user-friendly Streamlit interface.
 
 ---
 
