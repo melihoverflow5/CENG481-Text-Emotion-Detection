@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Transformers cache
+.cache/
+.huggingface/
+
+# PyTorch Lightning or TensorBoard logs
+lightning_logs/
+logs/
+runs/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/config.toml
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Other
+*.tmp
+*.bak
+*.swp
+*.~*
+
+/model
